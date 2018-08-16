@@ -73,13 +73,24 @@ html {
        margin: 0px 25px 25px 0px;
    }
 
+
    .folio-label {
     background-color: #4aaaa5;
     text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 40px;
-    font-weight: bold;
+    font-weight: bold; 
+    position: absolute;
+    top: 150px;
+    left: 100px;
+   }
+
+   @media (max-width: 284px) { 
+    .folio-label {
+        background-color: red;
+        position: absolute;
+        left: 10px;
    }
 
    #nav {
