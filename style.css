@@ -3,7 +3,8 @@ html {
     min-height: 100%;
   }
   body {
-   /* margin-bottom: 60px; */
+    margin-bottom: 60px;
+    background-image: url("assets/full-bloom.png");
 
   }
   .footer {
@@ -52,27 +53,25 @@ html {
      .main {
         background: white;
         padding: 15px;
+        height: auto;
         
     } 
 
     #main {
-        background-image: url("assets/full-bloom.png");
-        padding-top: 20px;
+        /* background-image: url("assets/full-bloom.png"); */
+        padding: 20px;
+        margin-top: 20px;
     }
 
-    /* .buffer { 
-        padding-top:20px; 
-        padding-bottom:20px;
-        } */
 
     #biophoto {
         margin: 10px 25px 5px 5px;
     }
 
-   .folio-img {
-       margin: 0px 25px 25px 0px;
-   }
-
+  .folio-img {
+       margin-bottom: 25px;
+       width: 100%;
+   } 
 
    .folio-label {
     background-color: #4aaaa5;
@@ -82,21 +81,17 @@ html {
     line-height: 40px;
     font-weight: bold; 
     position: absolute;
-    top: 150px;
-    left: 100px;
-   }
-
-   @media (max-width: 284px) { 
-    .folio-label {
-        background-color: red;
-        position: absolute;
-        left: 10px;
+    top: 100px; 
+    width: inherit;
    }
 
    #nav {
        font-family: Arial, Helvetica, sans-serif;
+       background: lightblue;
+       display: inline;
 
    }
+
 
    .nav-link {
         color: grey;
@@ -116,3 +111,12 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
    }
+
+
+   /* MOBILE MEDIA QUERIES */
+
+   @media (max-width: 640px) { 
+    .bio-photo {
+        width: 100%;
+   }
+}
