@@ -20,9 +20,26 @@ html {
     border-top: 6px solid #4aaaa5;
     margin-top: 100px;
     font-size: 15px;
-     padding: 10px 0px 30px;
+    padding: 10px 0px 30px;
     /*  line-height: 40px; */
 }
+
+@keyframes colorchange {
+    0%   {background-color: #ee7674;}
+    8.33%  {background-color: #e8708d;}
+    16.66%  {background-color: #e36da7;}
+    24.99%  {background-color: #dd69c0;}
+    33.32% {background-color: #d765d7;}
+    41.6% {background-color: #b462d2;}
+    49.98% {background-color: #935ecc;}
+    58.31% {background-color: #735bc6;}
+    66.64% {background-color: #575ac1;}
+    74.97% {background-color: #5471bb;}
+    83.3% {background-color: #5187b5;}
+    91.63% {background-color: #4d9cb0;}
+    99.96% {background-color: #4aaaa5;}
+
+ }
 
 /* .wrapper {
     min-height: 100%;
@@ -42,6 +59,8 @@ html {
         line-height: 100px;
         font-size: 30px;
         text-align: center;
+        animation-name: colorchange;
+        animation-duration: 10s;
     }
 
 
