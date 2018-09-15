@@ -60,7 +60,7 @@ html {
         font-size: 30px;
         text-align: center;
         animation-name: colorchange;
-        animation-duration: 10s;
+        animation-duration: 20s infinite;
     }
 
 
